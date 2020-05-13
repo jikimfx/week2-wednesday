@@ -21,16 +21,14 @@
                     <input type="text" class="form-control" id="guessNumber" placeholder="Write Guess Here">
                     <div class="input-group-append">
                         <button class="btn btn-primary ml-3 hide-me" type="button" id="submitButton">Submit</button>
-                        <button class="btn btn-danger ml-3 hide-me" type="button" id="resetButton" onclick="resetGame();">Reset</button>
+                        <button class="btn btn-danger ml-3 hide-me" type="button" id="resetButton"
+                            onclick="resetGame();">Reset</button>
                     </div>
                 </div>
             </form>
-            <div id='previousGuesses' class='hide-me'></div>
-            <div class='hide-me'>
-                <h4>Remaining Guesses: <span id="remainingGuesses">5</span></h4>
-                <!-- <h4 id="remainingGuesses">5</h4> -->
-                <h4 id="resultArea"></h4>
-            </div>
+            <h4 id='previousGuesses'></h4>
+            <h4>Remaining Guesses: <span id="remainingGuesses">5</span></h4>
+            <h4 id="resultArea"></h4>
         </div>
     </div>
 
